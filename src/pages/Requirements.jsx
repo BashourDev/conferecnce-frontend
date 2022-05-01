@@ -1,5 +1,6 @@
 import moment from "moment";
 import React from "react";
+import { IoMdArrowBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Requirements = ({ info }) => {
@@ -7,6 +8,10 @@ const Requirements = ({ info }) => {
     <div className="grid grid-cols-12 w-full py-10 text-dark">
       <div className="col-span-0 lg:col-span-3"></div>
       <div className="col-span-12 lg:col-span-6 space-y-3 px-3 lg:px-0">
+        <Link to={"/"} className="flex items-center text-hpu">
+          <IoMdArrowBack />
+          {"back to the form"}
+        </Link>
         <h1 className="font-semibold text-2xl text-hpu">
           ABSTRACT SUBMISSION GUIDELINES
         </h1>

@@ -1,12 +1,17 @@
 import moment from "moment";
 import React from "react";
 import { Link } from "react-router-dom";
+import { IoMdArrowBack } from "react-icons/io";
 
 const ConferenceInvitation = ({ info }) => {
   return (
     <div className="grid grid-cols-12 w-full py-10">
       <div className="col-span-1 lg:col-span-3"></div>
       <div className="col-span-10 lg:col-span-6 space-y-3 text-dark">
+        <Link to={"/"} className="flex items-center text-hpu">
+          <IoMdArrowBack />
+          {"back to the form"}
+        </Link>
         <h1 className="font-semibold text-2xl text-hpu">
           Invitation to the First International Medical Conference{" "}
         </h1>

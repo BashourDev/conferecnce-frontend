@@ -240,7 +240,7 @@ const MainForm = () => {
         </div>
       </div>
       <div className="col-span-1 lg:col-span-3 h-full flex flex-col space-y-10 pb-10 px-14">
-        <div className="border-2 border-hpu w-full rounded-md flex lg:hidden items-center py-10 justify-center">
+        <div className="border-2 border-hpu w-full rounded-md flex lg:hidden items-center px-2 py-10 justify-center">
           <span className="text-lg">
             Abstract Submission Deadline is{" "}
             <span className="text-hpu">
